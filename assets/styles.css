@@ -6,7 +6,7 @@ body {
 .report-list {
   background: url('report-list.png') no-repeat #ffffff;
   box-shadow: 0 0 8px 0 rgb(0 0 0 / 10%);
-  height: calc(100vh - 52px);
+  height: max(991px, calc(100vh - 52px));
   width: 349px;
 }
 
@@ -32,9 +32,9 @@ body {
 .content {
   background: #f0f2f4;
   display: grid;
+  height: max(991px, calc(100vh - 52px));
   grid-template-columns: 349px 1fr;
   grid-template-rows: 100px 1fr;
-  height: calc(100vh - 52px);
   padding-right: 15px;
   column-gap: 30px;
 }
